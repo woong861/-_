@@ -731,7 +731,7 @@
 
     <div class="consent-section" id="consentSection">
       <p class="consent-prompt">이분과 매칭 진행할까요?</p>
-      <p class="consent-sub">선택하신 후 운영진에게 카톡으로 답장해주세요 :)</p>
+      <p class="consent-sub">아래 버튼으로 선택해주세요 :)</p>
       <div class="consent-buttons">
         <button class="consent-btn yes" onclick="respond('yes')">💝 좋아요!</button>
         <button class="consent-btn no" onclick="respond('no')">🌸 다음에</button>
@@ -752,7 +752,7 @@
     <div class="multi-header">
       <div class="heart-big">💝</div>
       <h2 id="multiTitle">후보 프로필이 도착했어요</h2>
-      <p>마음에 드시는 분 선택 후<br>운영진에게 카톡으로 답해주세요 :)</p>
+      <p>마음에 드시는 분을 선택해주세요 :)</p>
     </div>
     <div id="profileList"></div>
     <div class="multi-summary">
@@ -796,7 +796,7 @@ function decode(str) {
 }
 
 // Google Apps Script 백엔드 — 응답 자동 수집
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyfFmrwmLy-YPUnZxmU9uiFjqUjklMxGTCDcW2aKifa763oj3HQXU6vx8dGcvS01QRq/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzkVbpExNeq49_cN1MCzRZh7yFW6aSRmhdWgMgqdKRl7E2FGNwIIqs-a7Nf53cmIxZF/exec';
 
 function postToBackend(data) {
   fetch(APPS_SCRIPT_URL, {
